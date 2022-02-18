@@ -330,6 +330,7 @@ label {
   text-indent: inherit;
   width: 30px;
   height: 30px;
+  padding: 0;
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -390,7 +391,7 @@ label {
 /* Extra small Device. */
 @media (max-width: 767px) {
   .mean-container a.meanmenu-reveal {
-    top: 5px !important;
+    top: 25px !important;
   }
 }
 /* SM Small Device :550px. */
