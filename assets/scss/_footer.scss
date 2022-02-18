@@ -81,6 +81,14 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 320px) and (max-width: 360px) {
+    .contact-info .address p span:first-child {
+        font-size: 22px;
+        display: none;
+    }
+    .contact-info .address p a {
+        font-size: 18px;
+    }
+
 
 
 }
