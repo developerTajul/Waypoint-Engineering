@@ -23,7 +23,7 @@
 
 /** responsive css **/ 
 /* XL Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 
 
 }
@@ -43,18 +43,36 @@
 /* Extra small Device. */
 @media (max-width: 767px) {
 
+
 }
+
+
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+    .contact-info .address p span:first-child {
+        font-size: 22px;
+    }
+    .contact-info .address p a {
+        font-size: 18px;
+    }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
 
 
 }
 
 /* SM Small Device :550px. */
-@media only screen and (min-width: 320px) and (max-width: 320px) {
-
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  
 
 }
-
-

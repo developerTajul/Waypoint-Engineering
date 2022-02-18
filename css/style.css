@@ -450,6 +450,15 @@ label {
   background-color: #00AEEF;
 }
 
+/** responsive css **/
+/* XL Device :1200px. */
+/* LG Device :992px. */
+/* MD Device :768px. */
+/* Extra small Device. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
 .section-heading h2 {
   font-weight: bold;
   font-size: 46px;
@@ -463,6 +472,15 @@ label {
   color: #727272;
 }
 
+/** responsive css **/
+/* XL Device :1200px. */
+/* LG Device :992px. */
+/* MD Device :768px. */
+/* Extra small Device. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
 .about-area .about-text h2 {
   font-weight: bold;
   font-size: 46px;
@@ -615,6 +633,15 @@ label {
   left: 87%;
 }
 
+/** responsive css **/
+/* XL Device :1200px. */
+/* LG Device :992px. */
+/* MD Device :768px. */
+/* Extra small Device. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
 .contact-area {
   overflow: hidden;
 }
@@ -674,6 +701,27 @@ label {
 /* LG Device :992px. */
 /* MD Device :768px. */
 /* Extra small Device. */
+@media (max-width: 767px) {
+  .contact-info ul li {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .contact-info .address p span:last-child {
+    font-size: 20px;
+    line-height: 34px;
+  }
+
+  .contact-info .address p a {
+    font-size: 20px;
+  }
+
+  .copy-right {
+    text-align: left !important;
+  }
+}
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
 /** Custom & Default Widget **/
@@ -695,6 +743,15 @@ label {
   color: #00AEEF;
 }
 
+/** responsive css **/
+/* XL Device :1200px. */
+/* LG Device :992px. */
+/* MD Device :768px. */
+/* Extra small Device. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
 /** footer-area  **/
 .footer-area {
   border-top: 0.5px solid #00AEEF;
@@ -717,6 +774,17 @@ label {
 /* LG Device :992px. */
 /* MD Device :768px. */
 /* Extra small Device. */
+/* SM Small Device :550px. */
+/* SM Small Device :550px. */
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+  .contact-info .address p span:first-child {
+    font-size: 22px;
+  }
+
+  .contact-info .address p a {
+    font-size: 18px;
+  }
+}
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
 
