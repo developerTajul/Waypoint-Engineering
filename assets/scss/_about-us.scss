@@ -26,7 +26,7 @@
 
 /** responsive css **/ 
 /* XL Device :1200px. */
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 
 
 }
@@ -45,17 +45,57 @@
 
 /* Extra small Device. */
 @media (max-width: 767px) {
-
+	/** about-us **/
+	.about-area {
+		padding: 40px 0;
+	}
+	.about-thumb {
+		margin-bottom: 18px;
+		width: 54.6%;
+		text-align: center;
+		margin: 0 auto 10px;
+	}
+	.about-area .about-text h2 {
+		font-size: 32px;
+		line-height: 37px;
+		text-align: center;
+		margin-bottom: 39px;
+	}
+	.about-area .about-text .about-desc p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 23px;
+		text-align: center;
+	}
 }
+
+
+
+
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+	
+
+}
+
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+    .about-thumb {
+        width: 70%;
+    }
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
 
 
 }
 
 /* SM Small Device :550px. */
-@media only screen and (min-width: 320px) and (max-width: 320px) {
+@media only screen and (min-width: 280px) and (max-width: 320px) {
 
 
 }

@@ -99,28 +99,6 @@
 	}
 
 
-	/** services 1 **/
-	.services-area .single-service-item.style-1 .service-thumb {
-		float: inherit;
-		margin: 0 auto;
-	}
-	.services-area .single-service-item.style-1 .service-content {
-		padding-left: 0;
-	}
-	.services-area .single-service-item.style-1 {
-		text-align: center;
-		min-height: 480px;
-	}
-	/** service 2 **/
-	.services-area .single-service-item.style-2 .service-number {
-		text-align: center;
-	}
-
-	.services-area .single-service-item.style-2 .service-content {
-		text-align: center;
-	}
-
-
 	/** contact info **/
 	.contact-info ul li {
 		margin-bottom: 20px;
@@ -222,30 +200,7 @@
 	
 
 
-	/**
-	about-us
-	**/
-	.about-area {
-		padding: 40px 0;
-	}
-	.about-thumb {
-		margin-bottom: 18px;
-		width: 54.6%;
-		text-align: center;
-		margin: 0 auto 10px;
-	}
-	.about-area .about-text h2 {
-		font-size: 32px;
-		line-height: 37px;
-		text-align: center;
-		margin-bottom: 39px;
-	}
-	.about-area .about-text .about-desc p {
-		font-size: 16px;
-		line-height: 26px;
-		margin-bottom: 23px;
-		text-align: center;
-	}
+
 
 	/**
 	heading-area
