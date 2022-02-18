@@ -243,9 +243,23 @@
 }
 
 /* SM Small Device :550px. */
-@media only screen and (min-width: 320px) and (max-width: 320px) {
-    a.standard-logo img {
-        width: 70%;
-    }
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+	.standard-logo img {
+		width: 55%;
+	}
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+	.standard-logo img {
+		width: 55%;
+	}
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+
 
 }
