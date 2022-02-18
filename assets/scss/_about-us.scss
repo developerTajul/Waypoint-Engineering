@@ -41,9 +41,9 @@
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-	.about-area {
-		padding: 40px 0;
-	}
+    .about-area {
+        padding: 52px 0;
+    }
 	.about-thumb {
 		margin-bottom: 18px;
 		text-align: center;
@@ -64,9 +64,9 @@
 
 /* Extra small Device. */
 @media (max-width: 767px) {
-	.about-area {
-		padding: 40px 0;
-	}
+    .about-area {
+        padding: 52px 0;
+    }
     .about-thumb {
         width: 65%;
         text-align: center;

@@ -657,7 +657,7 @@ label {
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
   .about-area {
-    padding: 40px 0;
+    padding: 52px 0;
   }
 
   .about-thumb {
@@ -680,7 +680,7 @@ label {
 /* Extra small Device. */
 @media (max-width: 767px) {
   .about-area {
-    padding: 40px 0;
+    padding: 52px 0;
   }
 
   .about-thumb {
