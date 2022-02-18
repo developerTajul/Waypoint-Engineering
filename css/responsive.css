@@ -61,11 +61,14 @@
 	/**
 	banner
 	**/
+	.slider-area .single-slide-item .slide-text {
+		padding: 160px 0;
+	}
 	.slider-area .slide-thumb {
-		width: 80%;
+		width: 60%;
 		height: 316px;
 		position: absolute;
-		top: 270px;
+		top: 678px;
 		left: 0;
 		z-index: 99999;
 		background-repeat: no-repeat;
