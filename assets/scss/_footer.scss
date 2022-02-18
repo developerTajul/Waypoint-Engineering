@@ -37,13 +37,18 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
     .footer-area .logo {
-        text-align: left;
-        margin-bottom: 8px;
-    }
+		text-align: left;
+		margin-bottom: 8px;
+        padding-bottom: 35px;
+	}
 
     .copy-right-info {
         padding: 50px 0;
     }
+
+    .copy-right {
+		text-align: left !important;
+	}
 
 	.contact-info ul li {
 		margin-bottom: 20px;
@@ -55,16 +60,6 @@
 	}
 	.contact-info .address p a {
 		font-size: 20px;
-	}
-
-
-	/** footer */
-	.copy-right {
-		text-align: left !important;
-	}
-	.footer-area .logo {
-		text-align: left;
-		margin-bottom: 8px;
 	}
 
 	.footer-widget .quick-links {
