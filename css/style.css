@@ -522,9 +522,32 @@ label {
 }
 /* Extra small Device. */
 /* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .slider-area .slide-thumb {
+    width: 73%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
 /* SM Small Device :550px. */
+@media only screen and (min-width: 375px) and (max-width: 420px) {
+  .slider-area .single-slide-item .slide-text h1 {
+    font-size: 34px;
+  }
+}
 /* SM Small Device :550px. */
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .slider-area .single-slide-item .slide-text h1 {
+    font-size: 30px;
+  }
+}
 /* SM Small Device :550px. */
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  .slider-area .single-slide-item .slide-text h1 {
+    font-size: 29px;
+  }
+}
 .section-heading h2 {
   font-weight: bold;
   font-size: 46px;

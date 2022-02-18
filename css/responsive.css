@@ -93,14 +93,6 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-	/** slider **/
-	.slider-area .slide-thumb {
-		width: 73%;
-		left: 0;
-		right: 0;
-		margin: 0 auto;
-	}
-
 	
 
 }
@@ -111,9 +103,6 @@
 	.standard-logo img {
 		width: 55%;
 	}
-	.slider-area .single-slide-item .slide-text h1 {
-		font-size: 34px;
-	}
 
 }
 
@@ -122,19 +111,11 @@
 	.standard-logo img {
 		width: 55%;
 	}
-	.slider-area .single-slide-item .slide-text h1 {
-		font-size: 34px;
-	}
 
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 280px) and (max-width: 320px) {
-	.standard-logo img {
-		width: 55%;
-	}
-	.slider-area .single-slide-item .slide-text h1 {
-		font-size: 34px;
-	}
+
 
 }
