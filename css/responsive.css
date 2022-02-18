@@ -24,68 +24,6 @@
 		padding-right: 26px;
 		padding-left: 26px;
 	}
-	/**
-	* header-area
-	*/
-	.logo {
-		padding: 35px 0;
-	}
-
-	/**
-	banner
-	**/
-	.slider-area {
-		height: 945px;
-	}
-	.slider-area .slide-thumb {
-		width: 96%;
-		height: 275px;
-		top: 560px;
-		left: 10px;
-	}
-	.slider-area .single-slide-item .slide-text {
-		padding: 175px 0;
-	}
-	.slider-area .single-slide-item .slide-text h1 {
-		font-size: 40px;
-		line-height: 47px;
-		margin-bottom: 50px;
-	}
-
-	.slider-area .single-slide-item .slide-text .theme-btn a {
-		padding: 12.5px 28.58px;
-	}
-
-
-	/**
-	heading-area
-	**/
-	.section-heading p {
-		font-size: 16px;
-		line-height: 26px;
-		color: #727272;
-	}
-
-	/** services **/
-	.services-area {
-		padding: 40px 0 0;
-	}
-
-	.services-area .services-wrapper .single-service-item {
-		margin: 0 auto 30px;
-	}
-
-	.services-area .single-service-item.two .service-number-wrapper {
-		top: -17px;
-		left: 85%;
-	}
-
-	.services-area .single-service-item.three .service-number-wrapper {
-		top: -18px;
-		left: -8px;
-	}
-
-
 
 
 

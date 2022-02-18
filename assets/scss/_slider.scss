@@ -119,6 +119,27 @@
 
 /* Extra small Device. */
 @media (max-width: 767px) {
+	.slider-area {
+		height: 945px;
+	}
+	.slider-area .slide-thumb {
+		width: 96%;
+		height: 275px;
+		top: 560px;
+		left: 10px;
+	}
+	.slider-area .single-slide-item .slide-text {
+		padding: 175px 0;
+	}
+	.slider-area .single-slide-item .slide-text h1 {
+		font-size: 40px;
+		line-height: 47px;
+		margin-bottom: 50px;
+	}
+
+	.slider-area .single-slide-item .slide-text .theme-btn a {
+		padding: 12.5px 28.58px;
+	}
 
     
 }

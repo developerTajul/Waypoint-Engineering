@@ -115,7 +115,23 @@
 
 /* Extra small Device. */
 @media (max-width: 767px) {
+	.services-area {
+		padding: 40px 0 0;
+	}
 
+	.services-area .services-wrapper .single-service-item {
+		margin: 0 auto 30px;
+	}
+
+	.services-area .single-service-item.two .service-number-wrapper {
+		top: -17px;
+		left: 85%;
+	}
+
+	.services-area .single-service-item.three .service-number-wrapper {
+		top: -18px;
+		left: -8px;
+	}
     
 }
 
