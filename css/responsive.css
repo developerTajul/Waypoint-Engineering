@@ -120,45 +120,8 @@
 	}
 
 
-	/** servoces-area **/
-	.services-area .section-heading h2 {
-		padding: 0 16px;
-	}
-
-	.services-area .single-service-item.style-1 .service-thumb {
-		float: none;
-		margin: 0 auto;
-	}
-	.services-area .single-service-item.style-1 .service-content {
-		overflow: none;
-		padding-left: 0;
-		text-align: center;
-	}
-
-	.services-area .single-service-item.style-1 .service-content h3 {
-		font-size: 24px;
-		line-height: 34px;
-	}
-
-	.services-area .single-service-item.style-2 {
-		text-align: center;
-	}
-
-	/** contact info **/
 
 
-	/** footer */
-	.copy-right-info {
-		padding: 0 0 17px;
-	}
-	.footer-area .logo {
-		text-align: left;
-		margin-bottom: 8px;
-	}
-
-	.footer-widget .quick-links {
-		margin-bottom: 38px;
-	}
 
 }
 

@@ -880,7 +880,28 @@ label {
 /* XL Device :1200px. */
 /* LG Device :992px. */
 /* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .footer-area .logo {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+}
 /* Extra small Device. */
+@media (max-width: 767px) {
+  /** footer */
+  .copy-right-info {
+    padding: 0 0 17px;
+  }
+
+  .footer-area .logo {
+    text-align: left;
+    margin-bottom: 8px;
+  }
+
+  .footer-widget .quick-links {
+    margin-bottom: 38px;
+  }
+}
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
 @media only screen and (min-width: 375px) and (max-width: 420px) {
