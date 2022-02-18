@@ -830,6 +830,30 @@ label {
     top: -18px;
     left: -8px;
   }
+
+  .services-area .services-wrapper .upper-arrow-left {
+    position: absolute;
+    top: 273px;
+    left: -75px;
+    z-index: 999;
+    transform: rotate(-85deg);
+  }
+
+  .services-area .services-wrapper .upper-arrow-right {
+    position: absolute;
+    top: 557px;
+    left: 293px;
+    z-index: 999;
+    transform: rotate(90deg);
+  }
+
+  .services-area .services-wrapper .down-arrow {
+    position: absolute;
+    bottom: 240px;
+    left: -81px;
+    z-index: 999;
+    transform: rotate(93deg);
+  }
 }
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
