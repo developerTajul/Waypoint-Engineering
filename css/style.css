@@ -334,6 +334,8 @@ label {
 
 .mean-container a.meanmenu-reveal span {
   background: #1F1F20;
+  height: 1px;
+  margin-top: 7px;
 }
 
 .mean-container a.meanmenu-reveal span:first-child {
