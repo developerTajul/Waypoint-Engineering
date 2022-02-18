@@ -1,0 +1,23 @@
+/** footer-area  **/
+.footer-area{
+    border-top: 0.5px solid #00AEEF;
+    overflow:hidden;
+    .logo{
+        p{
+            margin-top: 60px;
+            font-size: 14px;
+            line-height: 16px;
+            color: #1C1D1D;
+        }
+    }
+    .copy-right-info{
+        .copy-right{
+            p{
+                font-size: 14px;
+                line-height: 16px;
+                color: #1C1D1D;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,433 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+	.header-area .theme-btn {
+		padding-left: 160px;
+	}
+
+	.slider-area .slide-thumb {
+		width: 560px;
+		height: 275px;
+		position: absolute;
+		top: 270px;
+		left: 719px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+	.slider-area .single-slide-item .slide-text h1 {
+		font-size: 60px;
+	}
+
+	.about-thumb {
+		text-align: right;
+	}
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.header-area .main-menu ul li a {
+		padding: 38px 0 38px 30px;
+	}
+	.header-area .theme-btn {
+		padding-left: 50px;
+	}
+	.slider-area .single-slide-item .slide-text h1 {
+
+		font-size: 50px;
+		line-height: 66px;
+		margin-bottom: 80px;
+	}
+	.slider-area .slide-thumb {
+		width: 56%;
+		height: 326px;
+		position: absolute;
+		top: 270px;
+		left: 320px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	/**
+	banner
+	**/
+	.slider-area .slide-thumb {
+		width: 80%;
+		height: 316px;
+		position: absolute;
+		top: 270px;
+		left: 0;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	/**
+	about-us
+	**/
+	.about-area {
+		padding: 40px 0;
+	}
+	.about-thumb {
+		margin-bottom: 18px;
+		text-align: center;
+	}
+	.about-area .about-text h2 {
+		font-size: 32px;
+		line-height: 42px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.about-area .about-text .about-desc p {
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+
+	/** services 1 **/
+	.services-area .single-service-item.style-1 .service-thumb {
+		float: inherit;
+		margin: 0 auto;
+	}
+	.services-area .single-service-item.style-1 .service-content {
+		padding-left: 0;
+	}
+	.services-area .single-service-item.style-1 {
+		text-align: center;
+		min-height: 480px;
+	}
+	/** service 2 **/
+	.services-area .single-service-item.style-2 .service-number {
+		text-align: center;
+	}
+
+	.services-area .single-service-item.style-2 .service-content {
+		text-align: center;
+	}
+
+
+	/** contact info **/
+	.contact-area .google-map {
+		height: 300px;
+	}
+	.contact-info-wrapper {
+		margin-bottom: 40px;
+		height: inherit;
+	}
+	.contact-area .section-heading {
+		padding-bottom: 20px;
+	}
+	.contact-info ul {
+		margin-bottom: 37px;
+	}
+	.contact-info .icon {
+		float: none;
+		margin-right: 0;
+		margin: 0 auto;
+	}
+
+	.contact-info ul li {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.contact-info .address {
+		overflow: hidden;
+		padding: 0 150px;
+	}
+	.contact-info .address p {
+		margin-top: 18px;
+	}
+	.contact-info .address a {
+		color: #2B343F;
+	}
+	.contact-info .address p span:first-child {
+		font-weight: 600;
+		float: none;
+		margin-right: 0;
+		display: block;
+		margin-bottom: 8px;
+	}
+
+	.contact-info-wrapper .contact-form-area {
+		float: none;
+		width: 100%;
+		padding: 40px 0 0;
+		background: #FFFFFF;
+		box-shadow: none;
+	}
+
+	.contact-info-wrapper .contact-form-area h2 {
+		margin-bottom: 20px;
+	}
+
+	.contact-info-wrapper .contact-form-area .contact-form input {
+		margin-bottom: 20px;
+	}
+
+	.contact-info-wrapper .contact-form-area .contact-form .contact-form-btn {
+		margin-top: 0;
+		width: 100%;
+	}
+
+	.contact-info-wrapper .google-map {
+		overflow: inherit;
+		width: 100%;
+		height: 100%;
+	}
+
+	/**
+	heading-area
+	**/
+	.section-heading h2 {
+		font-size: 32px;
+		line-height: 42px;
+		text-align: center;
+	}
+
+	.contact-area .section-heading h2 {
+		font-size: 32px;
+		line-height: 42px;
+		text-align: center;
+		padding: 0 142px;
+	}
+
+	/** promotion-area **/
+	.promotion-area {
+		padding: 42px 0 0;
+	}
+	.promotion-text {
+		margin-bottom: 17px;
+	}
+	.promotion-text h2{
+		font-family: 'Nunito Sans';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 58px;
+		text-align: center;
+		color: #404852;
+	}
+	.promotion-thumb {
+		padding-bottom: 15px;
+	}
+
+	.promotion {
+		padding: 25px 0 13px;
+	}
+	.promotion-mobile-bg {
+		background: linear-gradient(246.53deg, #26C7FE 0%, #046CF8 98.08%);
+	}
+	.promotion-area .promotion h3 {
+		font-family: 'Nunito Sans';
+		font-weight: 600;
+		font-size: 24px;
+		line-height: 34px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	.promotion-area .promotion p {
+		padding-right: 0;
+		text-align: center;
+	}
+
+
+	/**
+	footer **/
+	.logo img {
+		max-width: 100%;
+	}
+	
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.container, .container-md, .container-sm {
+		width: 100%;
+		padding-right: 26px;
+		padding-left: 26px;
+	}
+	/**
+	* header-area
+	*/
+	.logo {
+		padding: 35px 0;
+	}
+
+	/**
+	banner
+	**/
+	.slider-area {
+		height: 945px;
+	}
+	.slider-area .slide-thumb {
+		width: 96%;
+		height: 275px;
+		top: 560px;
+		left: 10px;
+	}
+	.slider-area .single-slide-item .slide-text {
+		padding: 175px 0;
+	}
+	.slider-area .single-slide-item .slide-text h1 {
+		font-size: 40px;
+		line-height: 47px;
+		margin-bottom: 50px;
+	}
+
+	.slider-area .single-slide-item .slide-text .theme-btn a {
+		padding: 12.5px 28.58px;
+	}
+
+	
+
+
+	/**
+	about-us
+	**/
+	.about-area {
+		padding: 40px 0;
+	}
+	.about-thumb {
+		margin-bottom: 18px;
+		width: 54.6%;
+		text-align: center;
+		margin: 0 auto 10px;
+	}
+	.about-area .about-text h2 {
+		font-size: 32px;
+		line-height: 37px;
+		text-align: center;
+		margin-bottom: 39px;
+	}
+	.about-area .about-text .about-desc p {
+		font-size: 16px;
+		line-height: 26px;
+		margin-bottom: 23px;
+		text-align: center;
+	}
+
+	/**
+	heading-area
+	**/
+	.section-heading p {
+		font-size: 16px;
+		line-height: 26px;
+		color: #727272;
+	}
+
+	/** services **/
+	.services-area {
+		padding: 40px 0 0;
+	}
+
+	.services-area .services-wrapper .single-service-item {
+		margin: 0 auto 30px;
+	}
+
+	.services-area .single-service-item.two .service-number-wrapper {
+		top: -17px;
+		left: 85%;
+	}
+
+	.services-area .single-service-item.three .service-number-wrapper {
+		top: -18px;
+		left: -8px;
+	}
+
+
+	/** servoces-area **/
+	.services-area .section-heading h2 {
+		padding: 0 16px;
+	}
+
+	.services-area .single-service-item.style-1 .service-thumb {
+		float: none;
+		margin: 0 auto;
+	}
+	.services-area .single-service-item.style-1 .service-content {
+		overflow: none;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.services-area .single-service-item.style-1 .service-content h3 {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.services-area .single-service-item.style-2 {
+		text-align: center;
+	}
+
+	/** contact info **/
+	.contact-info ul li {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	.contact-info .address p span:last-child {
+		font-size: 20px;
+		line-height: 34px;
+	}
+	.contact-info .address p a {
+		font-size: 20px;
+	}
+	.copy-right {
+		text-align: left !important;
+	}
+
+	/** footer */
+	.copy-right-info {
+		padding: 0 0 17px;
+	}
+	.footer-area .logo {
+		text-align: left;
+		margin-bottom: 8px;
+	}
+
+	.footer-widget .quick-links {
+		margin-bottom: 38px;
+	}
+
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+	/** slider **/
+	.slider-area .slide-thumb {
+		width: 73%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+
+	
+
+}
+/* SM Small Device :550px. */
+@media only screen and (min-width: 300px) and (max-width: 375px) {
+	.standard-logo img {
+		width: 55%;
+	}
+	.slider-area .single-slide-item .slide-text h1 {
+		font-size: 34px;
+	}
+
+}

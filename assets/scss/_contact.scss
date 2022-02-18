@@ -1,0 +1,58 @@
+.contact-area{
+    overflow: hidden;
+}
+.contact-info{
+    ul li{
+        margin-bottom: 25px;
+    }
+    .icon{
+        float: left;
+        margin-right: 14px;
+        background: #E9FCFF;
+        border: 2px dashed #15D9FD;
+        box-sizing: border-box;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;     
+        i{
+            font-size: 15px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            color: #00AEEF;
+        }
+    }
+    .address{
+        overflow: hidden;
+        padding-top: 3px;
+        p{
+            span:first-child{
+                float: left;
+                margin-right: 5px;
+                font-size: 28px;
+                line-height: 34px;
+                color: #2B343F;
+                
+            }
+            span:last-child{
+                overflow: hidden;
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 34px;
+                color: #2B343F;
+            }
+            a{
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 34px;
+                color: #2B343F; 
+            }
+
+        }
+    }
+}

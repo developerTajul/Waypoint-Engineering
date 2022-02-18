@@ -1,0 +1,93 @@
+/** service-area **/
+.services-area {
+    .services-wrapper{
+        position:relative;
+        .upper-arrow-left{
+            position: absolute;
+            top: -55px;
+            left: 505px;
+            z-index: 999;
+        }
+        .upper-arrow-right{
+            position: absolute;
+            top: -55px;
+            left: 1134px;
+            z-index: 999;
+        }
+        .down-arrow{
+            position: absolute;
+            bottom: -37px;
+            left: 781px;
+            z-index: 999;
+        }
+
+        .single-service-item {
+            position: relative;
+            background: #FFFFFF;
+            box-shadow: 5px 10px 130px rgba(239, 245, 247, 0.95);
+            padding: 40px;
+            transition: 0.3s;
+            max-width: 305px;
+            min-height: 256px;
+            .service-number-wrapper{
+                position:absolute;
+                top:0;
+                left:0;
+                .service-number{
+                    position: relative;
+                    span{
+                        font-size: 24px;
+                        line-height: 30px;
+                        color: #00AEEF;
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        text-align: center;
+                        right: 0;
+                    }
+                    img{
+
+                    }
+                }
+            }
+            .service-content{
+                .service-thumb{
+                    height: 82px;
+                    margin-bottom: 33px;
+                    img{
+
+                    }
+                }
+                h3{
+                    font-weight: 500;
+                    font-size: 22px;
+                    line-height: 30px;
+                    color: #1C1D1D;
+                    opacity: 0.9;
+                    span{
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.services-area .single-service-item.one .service-number-wrapper {
+	top: -13px;
+	left: -9px;
+}
+.services-area .single-service-item.two .service-number-wrapper {
+	top: 87%;
+	left: -14px;
+}
+.services-area .single-service-item.three .service-number-wrapper {
+	top: -18px;
+	left: -13px;
+}
+
+.services-area .single-service-item.four .service-number-wrapper {
+	top: -25px;
+	left: 87%;
+}
