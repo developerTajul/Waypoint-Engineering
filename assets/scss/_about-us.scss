@@ -49,12 +49,11 @@
 	.about-area {
 		padding: 40px 0;
 	}
-	.about-thumb {
-		margin-bottom: 18px;
-		width: 54.6%;
-		text-align: center;
-		margin: 0 auto 10px;
-	}
+    .about-thumb {
+        width: 65%;
+        text-align: center;
+        margin: 0 auto 10px;
+    }
 	.about-area .about-text h2 {
 		font-size: 32px;
 		line-height: 37px;
@@ -90,12 +89,16 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 320px) and (max-width: 360px) {
-
+    .about-thumb {
+        width: 75%;
+    }
 
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 280px) and (max-width: 320px) {
-
+    .about-thumb {
+        width: 80%;
+    }
 
 }
