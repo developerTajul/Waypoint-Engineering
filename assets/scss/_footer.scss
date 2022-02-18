@@ -39,8 +39,38 @@
     .footer-area .logo {
         text-align: left;
         margin-bottom: 8px;
-        padding: 35px 0;
     }
+
+    .copy-right-info {
+        padding: 50px 0;
+    }
+
+	.contact-info ul li {
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	.contact-info .address p span:last-child {
+		font-size: 20px;
+		line-height: 34px;
+	}
+	.contact-info .address p a {
+		font-size: 20px;
+	}
+
+
+	/** footer */
+	.copy-right {
+		text-align: left !important;
+	}
+	.footer-area .logo {
+		text-align: left;
+		margin-bottom: 8px;
+	}
+
+	.footer-widget .quick-links {
+		margin-bottom: 38px;
+	}
+
 }
 
 

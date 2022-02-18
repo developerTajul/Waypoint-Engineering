@@ -12,41 +12,7 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
-	/** contact info **/
-	.contact-info ul li {
-		margin-bottom: 20px;
-		text-align: left;
-	}
-	.contact-info .address p span:last-child {
-		font-size: 20px;
-		line-height: 34px;
-	}
-	.contact-info .address p a {
-		font-size: 20px;
-	}
 
-
-	/** footer */
-	.copy-right {
-		text-align: left !important;
-	}
-	.copy-right-info {
-		padding: 0 0 17px;
-	}
-	.footer-area .logo {
-		text-align: left;
-		margin-bottom: 8px;
-	}
-
-	.footer-widget .quick-links {
-		margin-bottom: 38px;
-	}
-
-	/**
-	footer **/
-	.logo img {
-		max-width: 100%;
-	}
 	
 }
 
