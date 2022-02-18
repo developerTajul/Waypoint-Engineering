@@ -809,6 +809,38 @@ label {
 
 /** responsive css **/
 /* XL Device :1200px. */
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .services-area .services-wrapper .upper-arrow-left {
+    top: -63px;
+    left: 107px;
+  }
+
+  .services-area .services-wrapper .upper-arrow-right {
+    top: -59px;
+    left: 930px;
+  }
+
+  .services-area .services-wrapper .down-arrow {
+    bottom: -37px;
+    left: 567px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .services-area .services-wrapper .upper-arrow-left {
+    top: -63px;
+    left: 130px;
+  }
+
+  .services-area .services-wrapper .upper-arrow-right {
+    top: -59px;
+    left: 830px;
+  }
+
+  .services-area .services-wrapper .down-arrow {
+    bottom: -37px;
+    left: 515px;
+  }
+}
 /* LG Device :992px. */
 /* MD Device :768px. */
 /* Extra small Device. */
@@ -857,7 +889,7 @@ label {
 }
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
-@media only screen and (min-width: 375px) and (max-width: 420px) {
+@media only screen and (min-width: 360px) and (max-width: 420px) {
   .services-area .services-wrapper .upper-arrow-left {
     top: 273px;
     left: -99px;
