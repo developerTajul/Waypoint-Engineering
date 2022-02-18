@@ -312,7 +312,7 @@ label {
 
 .mean-container .mean-bar {
   min-height: 0;
-  margin-top: -72px;
+  margin-top: -98px;
   background: transparent;
 }
 
@@ -325,7 +325,7 @@ label {
 
 .mean-container a.meanmenu-reveal {
   border: 1px solid transparent;
-  color: #000;
+  color: #1F1F20;
   top: 0;
   text-indent: inherit;
   width: 30px;
@@ -333,7 +333,7 @@ label {
 }
 
 .mean-container a.meanmenu-reveal span {
-  background: #fff;
+  background: #1F1F20;
 }
 
 .mean-container a.meanmenu-reveal span:first-child {
@@ -400,8 +400,6 @@ label {
 }
 .slider-area {
   position: relative;
-  height: 934px;
-  margin-bottom: 0;
 }
 .slider-area .slide-bg {
   position: absolute;
