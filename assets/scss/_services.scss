@@ -170,7 +170,30 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 375px) and (max-width: 420px) {
-  
+    .services-area .services-wrapper .upper-arrow-left {
+        top: 273px;
+        left: -99px;
+        z-index: -999;
+        transform: rotate(-85deg);
+    }
+
+    .services-area .services-wrapper .upper-arrow-right {
+        top: 522px;
+        left: 206px;
+        z-index: -999;
+        transform: rotate(90deg);
+    }
+
+    .services-area .services-wrapper .down-arrow {
+        bottom: 270px;
+        left: -100px;
+        z-index: -999;
+        transform: rotate(93deg);
+    }
+
+    .services-area .section-heading {
+        padding-bottom: 50px;
+    }
 
 }
 
