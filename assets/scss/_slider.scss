@@ -59,19 +59,61 @@
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+	.slider-area .slide-thumb {
+		width: 560px;
+		height: 275px;
+		position: absolute;
+		top: 270px;
+		left: 719px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
+	.slider-area .single-slide-item .slide-text h1 {
+		font-size: 60px;
+	}
 
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+	.slider-area .single-slide-item .slide-text h1 {
 
+		font-size: 50px;
+		line-height: 66px;
+		margin-bottom: 80px;
+	}
+	.slider-area .slide-thumb {
+		width: 56%;
+		height: 326px;
+		position: absolute;
+		top: 270px;
+		left: 320px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 }
 
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+	.slider-area .single-slide-item .slide-text {
+		padding: 160px 0;
+	}
+	.slider-area .slide-thumb {
+		width: 60%;
+		height: 316px;
+		position: absolute;
+		top: 620px;
+		left: 0;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+		right: 0;
+		margin: 0 auto;
+	}
 }
 
 

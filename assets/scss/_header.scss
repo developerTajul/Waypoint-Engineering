@@ -197,13 +197,21 @@
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+	.header-area .theme-btn {
+		padding-left: 160px;
+	}
 
 
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+	.header-area .main-menu ul li a {
+		padding: 38px 0 38px 30px;
+	}
+	.header-area .theme-btn {
+		padding-left: 50px;
+	}
 }
 
 
@@ -212,6 +220,8 @@
     .mean-container a.meanmenu-reveal {
         top: 10px;
     }
+
+    
 }
 
 

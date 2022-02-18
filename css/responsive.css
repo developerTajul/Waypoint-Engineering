@@ -1,103 +1,16 @@
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-	.header-area .theme-btn {
-		padding-left: 160px;
-	}
-
-	.slider-area .slide-thumb {
-		width: 560px;
-		height: 275px;
-		position: absolute;
-		top: 270px;
-		left: 719px;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
-
-	.slider-area .single-slide-item .slide-text h1 {
-		font-size: 60px;
-	}
-
-	.about-thumb {
-		text-align: right;
-	}
 
 }
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-	.header-area .main-menu ul li a {
-		padding: 38px 0 38px 30px;
-	}
-	.header-area .theme-btn {
-		padding-left: 50px;
-	}
-	.slider-area .single-slide-item .slide-text h1 {
-
-		font-size: 50px;
-		line-height: 66px;
-		margin-bottom: 80px;
-	}
-	.slider-area .slide-thumb {
-		width: 56%;
-		height: 326px;
-		position: absolute;
-		top: 270px;
-		left: 320px;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
-
-
 
 }
 
 
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
-	/**
-	banner
-	**/
-	.slider-area .single-slide-item .slide-text {
-		padding: 160px 0;
-	}
-	.slider-area .slide-thumb {
-		width: 60%;
-		height: 316px;
-		position: absolute;
-		top: 620px;
-		left: 0;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
-		right: 0;
-		margin: 0 auto;
-	}
-
-	/**
-	about-us
-	**/
-	.about-area {
-		padding: 40px 0;
-	}
-	.about-thumb {
-		margin-bottom: 18px;
-		text-align: center;
-	}
-	.about-area .about-text h2 {
-		font-size: 32px;
-		line-height: 42px;
-		text-align: center;
-		margin-bottom: 20px;
-	}
-	.about-area .about-text .about-desc p {
-		margin-bottom: 25px;
-		text-align: center;
-	}
-
 
 	/** contact info **/
 	.contact-info ul li {
@@ -127,22 +40,6 @@
 
 	.footer-widget .quick-links {
 		margin-bottom: 38px;
-	}
-
-	/**
-	heading-area
-	**/
-	.section-heading h2 {
-		font-size: 32px;
-		line-height: 42px;
-		text-align: center;
-	}
-
-	.contact-area .section-heading h2 {
-		font-size: 32px;
-		line-height: 42px;
-		text-align: center;
-		padding: 0 142px;
 	}
 
 	/**
