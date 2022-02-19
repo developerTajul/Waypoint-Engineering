@@ -485,8 +485,8 @@ label {
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .slider-area .slide-thumb {
-    width: 560px;
-    height: 275px;
+    width: 720px;
+    height: 400px;
     position: absolute;
     top: 270px;
     left: 719px;
@@ -525,8 +525,8 @@ label {
   }
 
   .slider-area .slide-thumb {
-    width: 60%;
-    height: 316px;
+    width: 75%;
+    height: 298px;
     position: absolute;
     top: 620px;
     left: 0;
@@ -660,7 +660,7 @@ label {
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
   .about-thumb {
-    text-align: right;
+    width: 70%;
   }
 }
 /* LG Device :992px. */
