@@ -581,7 +581,7 @@ label {
 /* SM Small Device :550px. */
 @media only screen and (min-width: 375px) and (max-width: 420px) {
   .slider-area .single-slide-item .slide-text h1 {
-    font-size: 33px;
+    font-size: 34px;
   }
 }
 /* SM Small Device :550px. */
