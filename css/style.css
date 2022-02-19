@@ -534,7 +534,7 @@ label {
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider-area {
     position: relative;
-    height: 57vh;
+    height: 96vh;
     margin-bottom: 0;
   }
 
