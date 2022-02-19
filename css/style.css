@@ -501,21 +501,31 @@ label {
 }
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+  .slider-area {
+    position: relative;
+    height: 57vh;
+    margin-bottom: 0;
+  }
+
+  .slider-area .slide-thumb {
+    width: 50%;
+    height: 262px;
+    position: absolute;
+    top: 270px;
+    left: 502px;
+    z-index: 99999;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .slider-area .single-slide-item .slide-text {
+    padding: 208px 0;
+  }
+
   .slider-area .single-slide-item .slide-text h1 {
     font-size: 50px;
     line-height: 66px;
     margin-bottom: 80px;
-  }
-
-  .slider-area .slide-thumb {
-    width: 56%;
-    height: 326px;
-    position: absolute;
-    top: 270px;
-    left: 320px;
-    z-index: 99999;
-    background-repeat: no-repeat;
-    background-size: contain;
   }
 }
 /* MD Device :768px. */
