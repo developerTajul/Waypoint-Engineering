@@ -27,7 +27,7 @@
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
-    .about-thumb {
+    .about-thumb img{
         width: 70%;
     }
 
@@ -99,7 +99,7 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 375px) and (max-width: 420px) {
-    .about-thumb {
+    .about-thumb{
         width: 70%;
     }
 
