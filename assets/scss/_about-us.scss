@@ -42,17 +42,17 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
     .about-area {
-        padding: 52px 0;
+        padding: 52px 0 90px;
     }
-	.about-thumb {
-		margin-bottom: 18px;
-		text-align: center;
-	}
+    .about-thumb {
+        width: 50%;
+        margin-bottom: 35px;
+    }
 	.about-area .about-text h2 {
 		font-size: 32px;
 		line-height: 42px;
 		text-align: center;
-		margin-bottom: 20px;
+		margin-bottom: 25px;
 	}
 	.about-area .about-text .about-desc p {
 		margin-bottom: 25px;
