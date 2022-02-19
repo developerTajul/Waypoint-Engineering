@@ -588,7 +588,8 @@ label {
 /* SM Small Device :550px. */
 @media only screen and (min-width: 280px) and (max-width: 320px) {
   .slider-area .single-slide-item .slide-text h1 {
-    font-size: 27px;
+    font-size: 26px;
+    line-height: 40px;
   }
 }
 .section-heading h2 {
@@ -934,6 +935,19 @@ label {
 }
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  .services-area .single-service-item.four .service-number-wrapper {
+    top: -20px;
+    left: 81%;
+  }
+
+  .services-area .section-heading h2 {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 39px;
+  }
+}
 .contact-area {
   overflow: hidden;
 }
