@@ -441,6 +441,17 @@ label {
   height: 100%;
   z-index: -999;
 }
+.slider-area .slide-bg-mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+  background-position: -70px 0;
+}
 .slider-area .slide-thumb {
   width: 960px;
   height: 480px;
