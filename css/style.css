@@ -408,11 +408,16 @@ label {
     top: 25px !important;
   }
 
-  .logo {
-    padding: 35px 0;
+  .standard-logo img {
+    width: 55%;
   }
 }
 /* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .standard-logo img {
+    width: 65%;
+  }
+}
 /* SM Small Device :550px. */
 @media only screen and (min-width: 375px) and (max-width: 420px) {
   .standard-logo img {
@@ -426,6 +431,11 @@ label {
   }
 }
 /* SM Small Device :550px. */
+@media only screen and (min-width: 280px) and (max-width: 320px) {
+  .standard-logo img {
+    width: 55%;
+  }
+}
 .slider-area {
   position: relative;
   height: 100vh;
@@ -865,7 +875,7 @@ label {
   }
 
   .services-area .services-wrapper .single-service-item {
-    margin: 0 auto 30px;
+    margin: 0 auto 50px;
   }
 
   .services-area .single-service-item.two .service-number-wrapper {
@@ -1106,6 +1116,7 @@ label {
   .footer-area .logo {
     text-align: left;
     margin-bottom: 8px;
+    padding: 35px 0;
   }
 
   .footer-area .logo img {

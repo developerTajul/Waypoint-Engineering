@@ -230,15 +230,16 @@
     .mean-container a.meanmenu-reveal {
         top: 25px !important;
     }
-
-    .logo {
-		padding: 35px 0;
+    .standard-logo img {
+		width: 55%;
 	}
 }
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-
+    .standard-logo img {
+        width: 65%;
+    }
 
 }
 
@@ -260,6 +261,8 @@
 
 /* SM Small Device :550px. */
 @media only screen and (min-width: 280px) and (max-width: 320px) {
-
+	.standard-logo img {
+		width: 55%;
+	}
 
 }
