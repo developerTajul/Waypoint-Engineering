@@ -483,7 +483,7 @@ label {
 
 /** responsive css **/
 /* XL Device :1200px. */
-@media (min-width: 1500px) and (max-width: 1600px) {
+@media (min-width: 1500px) and (max-width: 1700px) {
   .slider-area .slide-thumb {
     width: 754px;
     height: 391px;
