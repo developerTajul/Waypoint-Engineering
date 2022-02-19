@@ -924,6 +924,13 @@ label {
   .services-area .section-heading {
     padding-bottom: 50px;
   }
+
+  .services-area .section-heading h2 {
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 39px;
+  }
 }
 /* SM Small Device :550px. */
 /* SM Small Device :550px. */
