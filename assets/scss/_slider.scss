@@ -100,12 +100,26 @@
 
 }
 
+
 @media (min-width: 1200px) and (max-width: 1370px) {
 	.slider-area .slide-thumb {
 		width: 630px;
 		height: 351px;
 		top: 270px;
 		left: 644px;
+	}
+
+}
+
+/**
+15" Note book (1366px X 768px)
+**/
+@media (min-width: 1365px) and (max-width: 1366px) {
+	.slider-area .slide-thumb {
+		width: 605px;
+		height: 300px;
+		top: 270px;
+		left: 753px;
 	}
 
 }
