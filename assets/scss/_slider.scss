@@ -69,6 +69,19 @@
 
 /** responsive css **/ 
 /* XL Device :1200px. */
+@media (min-width: 1500px) and (max-width: 1600px) {
+	.slider-area .slide-thumb {
+		width: 754px;
+		height: 391px;
+		position: absolute;
+		top: 270px;
+		left: 840px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
+}
+
 @media (min-width: 1200px) and (max-width: 1500px) {
 	.slider-area .slide-thumb {
 		width: 720px;
