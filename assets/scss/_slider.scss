@@ -100,6 +100,16 @@
 
 }
 
+@media (min-width: 1200px) and (max-width: 1370px) {
+	.slider-area .slide-thumb {
+		width: 630px;
+		height: 351px;
+		top: 270px;
+		left: 644px;
+	}
+
+}
+
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 	.slider-area {
