@@ -26,14 +26,14 @@
 	}
 
     .slide-thumb {
-		width: 685px;
-		height: 339px;
-		position: absolute;
-		top: 343px;
-		right: -90px;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
+        width: 960px;
+        height: 480px;
+        position: absolute;
+        top: 270px;
+        left: 878px;
+        z-index: 99999;
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 
     .single-slide-item{
@@ -70,60 +70,60 @@
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 3546px) and (max-width: 3546px) {
-	// .slider-area .slide-thumb {
-	// 	width: 754px;
-	// 	height: 391px;
-	// 	position: absolute;
-	// 	top: 270px;
-	// 	left: 1300px;
-	// 	z-index: 99999;
-	// 	background-repeat: no-repeat;
-	// 	background-size: contain;
-	// }
+	.slider-area .slide-thumb {
+		width: 754px;
+		height: 391px;
+		position: absolute;
+		top: 270px;
+		left: 1300px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
 }
 
 /* XL Device :1200px. */
 @media (min-width: 2500px) and (max-width: 2500px) {
-	// .slider-area .slide-thumb {
-	// 	width: 754px;
-	// 	height: 391px;
-	// 	position: absolute;
-	// 	top: 270px;
-	// 	left: 1300px;
-	// 	z-index: 99999;
-	// 	background-repeat: no-repeat;
-	// 	background-size: contain;
-	// }
+	.slider-area .slide-thumb {
+		width: 754px;
+		height: 391px;
+		position: absolute;
+		top: 270px;
+		left: 1300px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
 }
 
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 1500px) and (max-width: 1700px) {
-	// .slider-area .slide-thumb {
-	// 	width: 754px;
-	// 	height: 391px;
-	// 	position: absolute;
-	// 	top: 270px;
-	// 	left: 840px;
-	// 	z-index: 99999;
-	// 	background-repeat: no-repeat;
-	// 	background-size: contain;
-	// }
+	.slider-area .slide-thumb {
+		width: 754px;
+		height: 391px;
+		position: absolute;
+		top: 270px;
+		left: 840px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-	// .slider-area .slide-thumb {
-	// 	width: 720px;
-	// 	height: 400px;
-	// 	position: absolute;
-	// 	top: 270px;
-	// 	left: 719px;
-	// 	z-index: 99999;
-	// 	background-repeat: no-repeat;
-	// 	background-size: contain;
-	// }
+	.slider-area .slide-thumb {
+		width: 720px;
+		height: 400px;
+		position: absolute;
+		top: 270px;
+		left: 719px;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+	}
 
 	.slider-area .single-slide-item .slide-text h1 {
 		font-size: 60px;
@@ -133,12 +133,12 @@
 
 
 @media (min-width: 1200px) and (max-width: 1370px) {
-	// .slider-area .slide-thumb {
-	// 	width: 630px;
-	// 	height: 351px;
-	// 	top: 270px;
-	// 	left: 644px;
-	// }
+	.slider-area .slide-thumb {
+		width: 630px;
+		height: 351px;
+		top: 270px;
+		left: 644px;
+	}
 
 }
 
@@ -146,12 +146,12 @@
 15" Note book (1366px X 768px)
 **/
 @media (min-width: 1365px) and (max-width: 1366px) {
-	// .slider-area .slide-thumb {
-	// 	width: 605px;
-	// 	height: 300px;
-	// 	top: 270px;
-	// 	left: 753px;
-	// }
+	.slider-area .slide-thumb {
+		width: 605px;
+		height: 300px;
+		top: 270px;
+		left: 753px;
+	}
 
 }
 
@@ -190,18 +190,18 @@
 	.slider-area .single-slide-item .slide-text {
 		padding: 160px 0;
 	}
-	// .slider-area .slide-thumb {
-	// 	width: 75%;
-	// 	height: 298px;
-	// 	position: absolute;
-	// 	top: 620px;
-	// 	left: 0;
-	// 	z-index: 99999;
-	// 	background-repeat: no-repeat;
-	// 	background-size: contain;
-	// 	right: 0;
-	// 	margin: 0 auto;
-	// }
+	.slider-area .slide-thumb {
+		width: 75%;
+		height: 298px;
+		position: absolute;
+		top: 620px;
+		left: 0;
+		z-index: 99999;
+		background-repeat: no-repeat;
+		background-size: contain;
+		right: 0;
+		margin: 0 auto;
+	}
 
 }
 
