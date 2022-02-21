@@ -95,6 +95,29 @@
 
 
 
+/* XL Device :1200px. */
+@media (min-width: 2500px) and (max-width: 2500px) {
+
+	.services-area .services-wrapper .upper-arrow-left {
+		position: absolute;
+		top: -63px;
+		left: 642px;
+		z-index: 999;
+	}
+    .services-area .services-wrapper .down-arrow {
+        position: absolute;
+        bottom: -37px;
+        left: 1100px;
+        z-index: 999;
+    }
+    .services-area .services-wrapper .upper-arrow-right {
+        position: absolute;
+        top: -59px;
+        left: 1495px;
+        z-index: 999;
+    }
+}
+
 /** responsive css **/ 
 /* XL Device :1200px. */
 @media (min-width: 1400px) and (max-width: 1500px) {
