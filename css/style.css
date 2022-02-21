@@ -17,6 +17,10 @@ body {
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .img {
   max-width: 100%;
   transition: all 0.3s ease-out 0s;
@@ -1101,7 +1105,7 @@ label {
 /* SM Small Device :550px. */
 /** footer-area  **/
 .footer-area {
-  border-top: 0.5px solid #00AEEF;
+  border-top: 0.5px solid rgba(0, 174, 239, 0.5);
   overflow: hidden;
 }
 .footer-area .logo p {
