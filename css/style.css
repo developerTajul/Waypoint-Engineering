@@ -427,8 +427,8 @@ label {
 /* SM Small Device :550px. */
 .slider-area {
   position: relative;
-  height: 100vh;
   margin-bottom: 0;
+  height: 942px;
 }
 .slider-area .slide-bg {
   position: absolute;
@@ -457,7 +457,7 @@ label {
   right: -30px;
 }
 .slider-area .single-slide-item .slide-text {
-  padding: 233px 0;
+  padding: 272px 0;
 }
 .slider-area .single-slide-item .slide-text h1 {
   font-weight: bold;
@@ -486,6 +486,10 @@ label {
     top: 315px;
     right: 0;
     width: 48%;
+  }
+
+  .slider-area .single-slide-item .slide-text {
+    padding: 233px 0;
   }
 
   .slider-area .single-slide-item .slide-text h1 {

@@ -1,7 +1,7 @@
 .slider-area{
     position: relative;
-    height: 100vh;
     margin-bottom: 0;
+	height: 942px;
    
     .slide-bg{
         position: absolute;
@@ -34,7 +34,8 @@
     .single-slide-item{
 
         .slide-text{
-            padding: 233px 0;
+			padding: 272px 0;
+            // padding: 233px 0;
             h1{
                 font-weight: bold;
                 font-size: 64px;
@@ -73,6 +74,9 @@
 		width: 48%;
 	}
 
+	.slider-area .single-slide-item .slide-text{
+		padding: 233px 0;
+	}
 	.slider-area .single-slide-item .slide-text h1 {
 		font-size: 60px;
 	}
