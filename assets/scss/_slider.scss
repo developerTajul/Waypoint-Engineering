@@ -62,54 +62,10 @@
 }
 
 
-/** responsive css 
-
-@media (min-width: 3546px) and (max-width: 3546px) {
-	.slider-area .slide-thumb {
-		width: 754px;
-		height: 391px;
-		position: absolute;
-		top: 270px;
-		left: 1300px;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
-
-}
- 
 
 
-@media (min-width: 2500px) and (max-width: 2500px) {
-	.slider-area .slide-thumb {
-		width: 754px;
-		height: 391px;
-		position: absolute;
-		top: 270px;
-		left: 1300px;
-		z-index: 99999;
-		background-repeat: no-repeat;
-		background-size: contain;
-	}
-
-}
-
-**/
-
-/** responsive css **/ 
-/* XL Device :1200px. */
-@media (min-width: 1500px) and (max-width: 1700px) {
-	// .slider-area .slide-thumb {
-	// 	top: 270px;
-	// 	right: 0;
-	// }
-}
 
 @media (min-width: 1200px) and (max-width: 1500px) {
-	// .slider-area .slide-thumb {
-	// 	top: 270px;
-	// 	right: 0;
-	// }
 	.slider-area .slide-thumb {
 		position: absolute;
 		top: 315px;
@@ -124,24 +80,6 @@
 }
 
 
-@media (min-width: 1200px) and (max-width: 1370px) {
-	// .slider-area .slide-thumb {
-	// 	top: 270px;
-	// 	left: 0;
-	// }
-
-}
-
-/**
-15" Note book (1366px X 768px)
-**/
-@media (min-width: 1365px) and (max-width: 1366px) {
-	// .slider-area .slide-thumb {
-	// 	top: 270px;
-	// 	right: 0;
-	// }
-
-}
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
