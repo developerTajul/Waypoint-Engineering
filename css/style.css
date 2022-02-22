@@ -499,7 +499,6 @@ label {
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
   .slider-area {
-    height: 96vh;
     margin-bottom: 0;
   }
 
@@ -814,7 +813,7 @@ label {
 }
 
 /** responsive css **/
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
   .services-area .services-wrapper .upper-arrow-left {
     top: -63px;
     left: 47px;
@@ -822,7 +821,7 @@ label {
 
   .services-area .services-wrapper .upper-arrow-right {
     top: -59px;
-    left: 850px;
+    left: 710px;
   }
 
   .services-area .services-wrapper .down-arrow {
