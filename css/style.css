@@ -516,6 +516,13 @@ label {
 /** responsive css **/
 /* XL Device :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+  .slider-area .slide-thumb {
+    position: absolute;
+    top: 315px;
+    right: 0;
+    width: 48%;
+  }
+
   .slider-area .single-slide-item .slide-text h1 {
     font-size: 60px;
   }
