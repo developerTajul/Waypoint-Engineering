@@ -662,6 +662,11 @@ label {
   }
 }
 /* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .about-thumb img {
+    width: 80%;
+  }
+}
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
   .about-area {
