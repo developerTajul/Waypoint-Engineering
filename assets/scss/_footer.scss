@@ -32,6 +32,9 @@
 
 /* LG Device :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .footer-widget .contact-info {
+        padding-left: 105px;
+    }
     .contact-info .address p span:first-child {
         float: left;
         margin-right: 5px;
