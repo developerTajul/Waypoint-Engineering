@@ -2,23 +2,20 @@
 .services-area {
     .services-wrapper{
         position:relative;
-        .upper-arrow-left{
+        .upper-arrow-left {
             position: absolute;
             top: -63px;
-            left: 340px;
-            z-index: 999;
+            left: 47px;
         }
         .upper-arrow-right{
             position: absolute;
             top: -59px;
-            left: 1134px;
-            z-index: 999;
+            left: 860px;
         }
         .down-arrow{
             position: absolute;
-            bottom: -37px;
-            left: 781px;
-            z-index: 999;
+            bottom: -15px;
+            left: 546px;
         }
 
         .single-service-item {
@@ -95,61 +92,22 @@
 
 
 
-/* XL Device :1200px. */
-@media (min-width: 2500px) and (max-width: 2500px) {
-
-	.services-area .services-wrapper .upper-arrow-left {
-		position: absolute;
-		top: -63px;
-		left: 642px;
-		z-index: 999;
-	}
-    .services-area .services-wrapper .down-arrow {
-        position: absolute;
-        bottom: -37px;
-        left: 1100px;
-        z-index: 999;
-    }
-    .services-area .services-wrapper .upper-arrow-right {
-        position: absolute;
-        top: -59px;
-        left: 1495px;
-        z-index: 999;
-    }
-}
-
 /** responsive css **/ 
-/* XL Device :1200px. */
-@media (min-width: 1400px) and (max-width: 1500px) {
-    .services-area .services-wrapper .upper-arrow-left {
-        top: -63px;
-        left: 107px;
-    }
-    .services-area .services-wrapper .upper-arrow-right {
-        top: -59px;
-        left: 930px;
-    }
 
-    .services-area .services-wrapper .down-arrow {
-        bottom: -37px;
-        left: 567px;
-    }
 
-}
-
-@media (min-width: 1200px) and (max-width: 1400px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
 
     .services-area .services-wrapper .upper-arrow-left {
         top: -63px;
-        left: 130px;
+        left: 47px;
     }
     .services-area .services-wrapper .upper-arrow-right {
         top: -59px;
-        left: 830px;
+        left: 850px;
     }
     .services-area .services-wrapper .down-arrow {
-        bottom: -37px;
-        left: 515px;
+        bottom: -15px;
+        left: 450px;
     }
 
 }
